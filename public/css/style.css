@@ -47,6 +47,7 @@ header .hero-text {
   transform: translate(-50%, 0%);
 }
 
+/* Animation */
 @keyframes bounce {
   0% {
     top: 50%;
@@ -61,4 +62,94 @@ header .hero-text {
     bottom: 50%;
     transform: translate(-50%, 0%);
   }
+}
+
+h3.text-dark-blue {
+  font-weight: 900;
+  color: hsl(212, 27%, 19%);
+}
+
+h3.text-dark-cyan {
+  font-weight: 900;
+  color: hsl(167, 40%, 24%);
+}
+
+.lead-blue {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: hsl(213, 9%, 39%);
+  font-size: 1.1rem;
+}
+
+.lead-dark-cyan {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: hsl(167, 40%, 24%);
+  font-size: 1rem;
+}
+
+.lead-dark-blue {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: hsl(212, 27%, 19%);
+  font-size: 1rem;
+}
+
+.figure,
+.figure-img {
+  margin-bottom: 0;
+}
+
+.learn-more-link-yellow {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 25%);
+  text-decoration: none;
+  position: relative;
+}
+
+.learn-more-link-yellow::after {
+  content: '';
+  position: absolute;
+  bottom: 10%;
+  height: 10px;
+  left: 0%;
+  opacity: 0.2;
+  width: 100%;
+  border-radius: 1rem;
+  background: hsl(51, 100%, 49%);
+}
+
+.learn-more-link-yellow:hover {
+  color: hsl(212, 27%, 19%);
+}
+
+.learn-more-link-yellow:hover:after {
+  opacity: 0.75;
+}
+
+.learn-more-link-red {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 25%);
+  text-decoration: none;
+  position: relative;
+}
+
+.learn-more-link-red::after {
+  content: '';
+  position: absolute;
+  bottom: 10%;
+  height: 10px;
+  left: 0%;
+  width: 100%;
+  opacity: 0.2;
+  border-radius: 1rem;
+  background: hsl(7, 99%, 70%);
+}
+
+.learn-more-link-red:hover {
+  color: hsl(212, 27%, 19%);
+}
+
+.learn-more-link-red:hover:after {
+  opacity: 0.75;
 }
