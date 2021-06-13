@@ -203,3 +203,27 @@ h3.text-dark-cyan {
   color: hsl(210, 4%, 67%);
   font-family: 'Barlow', serif;
 }
+
+/* FOOTER */
+footer {
+  background: hsl(168, 34%, 41%, 0.6);
+}
+
+.footer-brand {
+  font-size: 2rem;
+  color: hsl(167, 40%, 24%);
+}
+
+footer .nav-link {
+  color: hsl(168, 34%, 41%);
+  font-weight: 600;
+}
+
+footer .nav-link:focus,
+footer .nav-link:hover {
+  color: #fff;
+}
+
+footer .social-icons {
+  font-size: 1.1rem;
+}
