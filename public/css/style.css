@@ -14,12 +14,68 @@ h3 {
   font-family: 'Fraunces', serif;
 }
 
+:root {
+  --blue: hsl(212, 27%, 19%);
+  --blue: hsl(213, 9%, 39%);
+  --blue: hsl(232, 10%, 55%);
+  --blue: hsl(210, 4%, 67%);
+  --hite: hsl(0, 0%, 100%);
+  --tred: hsl(7, 99%, 70%);
+  --ellow: hsl(51, 100%, 49%);
+  --text: hsl(167, 40%, 24%);
+  --text: hsl(198, 62%, 26%);
+  --oter: hsl(168, 34%, 41%);
+}
+
+.navbar .navbar-nav {
+  position: relative;
+  border-radius: 1rem;
+  margin: auto;
+  width: 50%;
+  padding: 2rem 0;
+  background: #fff;
+}
+
+.navbar .navbar-nav::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px 1px 1px 1px;
+  border-color: red;
+  background: royalblue;
+}
+
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: hsl(232, 10%, 55%);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  opacity: 0.9;
+  color: hsl(212, 27%, 19%);
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-nav {
+    position: relative;
+    background: transparent;
+    width: auto;
+    margin: 0;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover {
+    opacity: 0.9;
+  }
+
+  .btn.btn-light:hover {
+    color: #fff;
+    background: rgba(6, 177, 250, 0.2);
+  }
 }
 
 /* HEADER */
@@ -44,10 +100,14 @@ header .hero-text {
   color: #fff;
   font-size: 3rem;
   letter-spacing: 0.5rem;
-  /* word-spacing: 1rem; */
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, 0%);
+}
+@media (min-width: 992px) {
+  header .hero-text {
+    top: 25%;
+  }
 }
 
 /* Animation */
