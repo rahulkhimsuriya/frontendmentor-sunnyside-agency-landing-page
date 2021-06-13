@@ -1,7 +1,7 @@
 h1,
 h2,
 h3 {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
 }
 
 .navbar-brand {
@@ -29,9 +29,22 @@ header {
   min-height: 100vh;
   font-family: 'Barlow', sans-serif;
 }
+header > div {
+  transform: translate(-50%, 0%);
+}
 
-header > button {
+header .animate-arrrow {
   animation: bounce 2s infinite;
+}
+
+header .hero-text {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  /* word-spacing: 1rem; */
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
 @keyframes bounce {
@@ -42,7 +55,6 @@ header > button {
   }
   70% {
     top: 40%;
-    /* transform: translate(-50%, 0%); */
   }
   100% {
     top: 50%;
