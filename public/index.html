@@ -14,6 +14,12 @@
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
 
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -24,7 +30,63 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-trasnparent">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fs-3" href="#">sunnyside</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link" aria-current="page" href="#"> Service </a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link" aria-current="page" href="#"> Project </a>
+            </li>
+            <li class="nav-item ms-lg-4">
+              <a class="btn btn-light" aria-current="page" href="#">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="position-relative">
+      <button
+        class="position-absolute start-50 bottom-50 bg-transparent border-0"
+      >
+        <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
+          <g
+            stroke="#FFF"
+            stroke-width="6"
+            fill="none"
+            fill-rule="evenodd"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M18 3v100M3 95.484l15 15 15-15" />
+          </g>
+        </svg>
+      </button>
+    </header>
+
     <!-- JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"

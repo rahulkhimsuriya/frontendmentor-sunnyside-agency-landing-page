@@ -1,0 +1,52 @@
+h1,
+h2,
+h3 {
+  font-family: 'Barlow', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Fraunces', serif;
+}
+
+.btn {
+  border-radius: 1rem;
+  font-family: 'Fraunces', serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  opacity: 0.9;
+}
+
+header {
+  background-image: url('../images/desktop/image-header.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Barlow', sans-serif;
+}
+
+header > button {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 0%);
+  }
+  70% {
+    top: 40%;
+    /* transform: translate(-50%, 0%); */
+  }
+  100% {
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
