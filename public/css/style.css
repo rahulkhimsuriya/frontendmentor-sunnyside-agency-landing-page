@@ -4,6 +4,7 @@ h3 {
   font-family: 'Fraunces', serif;
 }
 
+/* NAVBAR */
 .navbar-brand {
   font-family: 'Fraunces', serif;
 }
@@ -20,6 +21,8 @@ h3 {
 .navbar-dark .navbar-nav .nav-link:hover {
   opacity: 0.9;
 }
+
+/* HEADER */
 
 header {
   background-image: url('../images/desktop/image-header.jpg');
@@ -95,6 +98,8 @@ h3.text-dark-cyan {
   font-size: 1rem;
 }
 
+/* BODY */
+
 .figure,
 .figure-img {
   margin-bottom: 0;
@@ -152,4 +157,49 @@ h3.text-dark-cyan {
 
 .learn-more-link-red:hover:after {
   opacity: 0.75;
+}
+
+/* TESTIMONIAL */
+.testimonial-section {
+  padding: 5rem 2rem;
+  background: hsl(7, 99%, 70%, 0.05);
+}
+
+.testimonial-section h2 {
+  font-size: 1.3rem;
+  font-family: 'Fraunces', serif;
+  color: hsl(232, 10%, 55%);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.testimonial {
+  text-align: center;
+  width: 100%;
+}
+
+.testimonial .testimonial-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.testimonial .testimonial-blockquote p {
+  font-size: 0.9rem;
+  color: hsl(213, 9%, 39%);
+  font-weight: 600;
+}
+
+.testimonial .testimonial-person {
+  font-weight: 800;
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 27%, 19%);
+}
+
+.testimonial .testimonial-designation {
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 0%;
+  color: hsl(210, 4%, 67%);
+  font-family: 'Barlow', serif;
 }
